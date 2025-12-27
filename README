@@ -1,0 +1,25 @@
+# HFS Copy Video Link Plugin
+
+A plugin for [HFS (HTTP File Server)](https://github.com/rejetto/hfs) that adds a button to copy direct links to video files.
+
+## Features
+
+- Automatically detects video files (mp4, mov, wmv, mkv, avi, flv, webm, m4v)
+- Adds a "📺 Copy" button next to each video file
+- Copies the direct video link to clipboard when clicked
+- Shows a toast notification confirming the copy action
+
+## Installation
+
+1. Download or clone this repository
+2. Copy the `dist` folder contents to your HFS plugins directory
+3. Restart HFS or reload plugins
+4. The plugin will automatically add copy buttons next to video files
+
+## Usage
+
+When browsing your HFS server, you'll see a "📺 Copy" button next to video files. Click it to copy the direct link to your clipboard. You can then paste this link into any media player that supports network streams.
+
+## License
+
+GPL-3.0
